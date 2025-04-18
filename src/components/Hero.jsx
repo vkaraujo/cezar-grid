@@ -1,22 +1,35 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center bg-white px-4">
-      <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-        Cezar Augusto Waissmann de Araujo
-      </h1>
-      <h2 className="text-xl sm:text-2xl text-gray-700 mb-6">
-        Electrical Engineer • Project Designer • Consultant
-      </h2>
-      <p className="max-w-xl text-gray-600 mb-8">
-        Bringing technical excellence and hands-on execution to every project.
-        Focused on results, quality, and real impact in electrical systems and automation.
-      </p>
-      <a
-        href="#contact"
-        className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-700 transition"
-      >
-        Contact Me
-      </a>
+    <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-24 bg-[#1e1e2f] text-white overflow-hidden">
+      {/* Image */}
+      <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 mb-10 md:mb-0 md:mr-16 flex-shrink-0">
+        <img
+          src="/Cezar.jpeg"
+          alt="Cezar Araujo"
+          className="w-full h-full object-cover rounded-3xl shadow-xl border-4 border-blue-500"
+        />
+      </div>
+
+      {/* Info */}
+      <div className="max-w-xl text-center md:text-left">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight text-white">
+          Cezar Augusto Waissmann de Araujo
+        </h1>
+        <h2 className="text-2xl font-semibold text-blue-400 mb-6">
+          Electrical Engineer · Project Designer · Consultant
+        </h2>
+        <p className="text-gray-300 mb-8 text-base sm:text-lg leading-relaxed">
+          I bring technical precision, cost-effective planning, and hands-on execution
+          to every project — from automation and grounding systems to electrical
+          substation design.
+        </p>
+        <a
+          href="#contact"
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-700 transition"
+        >
+          Contact Me
+        </a>
+      </div>
     </section>
   );
 }

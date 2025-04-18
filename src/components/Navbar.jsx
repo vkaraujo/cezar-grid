@@ -8,8 +8,10 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-md">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-center">
+    <nav
+      className="absolute top-0 left-0 w-full z-50 backdrop-blur-md bg-white/70 drop-shadow-[0_10px_20px_rgba(0,0,0,0.4)] border-b border-white/30"
+    >
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center">
         <ul className="flex space-x-64 text-lg font-medium text-gray-700">
           {links.map((link) => (
             <li key={link.href}>
@@ -26,3 +28,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
