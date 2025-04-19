@@ -22,7 +22,11 @@ This is a single-page responsive portfolio website built for Cezar Araujo, an ex
 - Accessibility best practices
 - Fully covered by tests (with >90% coverage)
 
+![image](https://github.com/user-attachments/assets/684a3d7b-7535-467e-88cf-23c95c6b8ce3)
+
+
 ---
 
 🔧 Developed and maintained by [Viktor Araujo](https://github.com/vkaraujo)
+
 
