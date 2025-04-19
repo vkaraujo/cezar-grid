@@ -10,6 +10,7 @@ export default function Hero() {
         <img
           src="/Cezar.jpeg"
           alt="Portrait of Cezar Araujo"
+          loading="lazy"
           className="w-full h-full object-cover rounded-3xl shadow-xl border-4 border-blue-500"
         />
       </div>
