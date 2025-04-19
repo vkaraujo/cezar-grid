@@ -91,5 +91,8 @@
     "title": "Entre em Contato",
     "subtitle": "Se você está procurando um engenheiro experiente ou apenas quer se conectar, fique à vontade para entrar em contato.",
     "download": "Baixar Currículo"
+  },
+  "footer": {
+    "builtBy": "Site desenvolvido por"
   }
 }

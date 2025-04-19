@@ -91,5 +91,8 @@
     "title": "Get in Touch",
     "subtitle": "Whether you’re looking for an experienced engineer or just want to connect, feel free to reach out.",
     "download": "Download Résumé"
+  },
+  "footer": {
+    "builtBy": "Site developed by"
   }
 }

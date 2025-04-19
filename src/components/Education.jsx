@@ -1,32 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { FaGraduationCap, FaCertificate } from 'react-icons/fa';
+import { educationData, certificationsData } from './data/education';
 
 export default function Education() {
   const { t } = useTranslation();
 
-  const education = [
-    {
-      title: t('education.compsci.title'),
-      institution: t('education.compsci.institution'),
-      period: t('education.compsci.period'),
-      inProgress: true,
-    },
-    {
-      title: t('education.bi.title'),
-      institution: t('education.bi.institution'),
-      period: t('education.bi.period'),
-    },
-    {
-      title: t('education.ee.title'),
-      institution: t('education.ee.institution'),
-      period: t('education.ee.period'),
-    },
-  ];
-
-  const certifications = [
-    t('education.certs.powerbi'),
-    t('education.certs.productivity'),
-  ];
+  const education = educationData(t);
+  const certifications = certificationsData(t);
 
   return (
     <section className="bg-white py-20 px-4" id="education">
