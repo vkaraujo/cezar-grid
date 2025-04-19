@@ -43,6 +43,7 @@ export default function LanguageSelector({ isMobile = false, closeMenu = () => {
               <button
                 key={lng}
                 onClick={() => changeLanguage(lng)}
+                aria-label={`Switch to ${lng === 'pt' ? 'Portuguese' : 'English'}`}
                 className="block w-full px-3 py-1 text-lg hover:bg-gray-100"
               >
                 {flag}

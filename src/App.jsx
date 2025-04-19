@@ -11,15 +11,24 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Education />
-      <Contact />
+      <header role="banner">
+        <Navbar />
+      </header>
+
+      <main role="main">
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Education />
+        <Contact />
+      </main>
+
       <ScrollToTop />
-      <Footer />
+
+      <footer role="contentinfo">
+        <Footer />
+      </footer>
     </>
-  );
+  )
 }
