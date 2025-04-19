@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "education": "Formação",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Cezar Augusto Waissmann de Araujo",
+    "subtitle": "Engenheiro Eletricista · Projetista · Consultor",
+    "description": "Trago precisão técnica, planejamento econômico e execução prática a cada projeto — de sistemas de automação e aterramento ao projeto de subestações elétricas.",
+    "cta": "Entrar em Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "paragraph1": "Sou Cezar Araujo, engenheiro eletricista com mais de 7 anos de experiência na indústria da construção civil. Especialista em projetar e gerenciar sistemas elétricos — desde instalações de baixa tensão até automação e projetos de subestações.",
+    "paragraph2": "Meu trabalho une precisão técnica à execução prática, sempre com foco em entregar resultados de qualidade e economicamente viáveis. Gosto de ambientes que exigem comunicação clara, pensamento crítico e postura proativa."
+  },
+  "skills": {
+    "title": "Habilidades e Ferramentas",
+    "description": "Ferramentas e competências que utilizo para entregar qualidade e eficiência.",
+    "technical": "Habilidades Técnicas",
+    "soft": "Habilidades Comportamentais",
+    "spda": "SPDA e Aterramento",
+    "substations": "Subestações",
+    "automation": "Automação",
+    "projectMgmt": "Gestão de Projetos",
+    "problemSolving": "Resolução de Problemas",
+    "teamwork": "Trabalho em Equipe",
+    "negotiation": "Negociação",
+    "english": "Inglês (Avançado)"
+  },
+  "experience": {
+    "title": "Experiência",
+    "multi": {
+      "company": "Multi Reformas",
+      "period": "Jul 2024 – Presente",
+      "summary": "Reduziu os custos com materiais em 20% durante processos de licitação, mantendo padrões técnicos e de qualidade."
+    },
+    "zaghetto": {
+      "company": "Zaghetto Construções",
+      "period": "Fev 2023 – Presente",
+      "summary": "Melhorou o fluxo de caixa com negociação com fornecedores e introdução de modelos flexíveis de pagamento."
+    },
+    "ativa": {
+      "company": "Ativa Tec Solutions",
+      "engineer": {
+        "title": "Engenheiro Eletricista",
+        "period": "Out 2019 – Jan 2023",
+        "summary": "Liderou projetos elétricos e otimizou processos de pagamento, resolvendo 98% das pendências antes dos prazos."
+      },
+      "intern": {
+        "title": "Estagiário de Engenharia",
+        "period": "Ago 2017 – Out 2019",
+        "summary": "Auxiliou com desenhos CAD, relatórios de pagamento de equipe e execução de projetos em campo."
+      }
+    },
+    "inovsat": {
+      "company": "Inovsat Telecom",
+      "period": "Jun 2014 – Dez 2014",
+      "summary": "Deu suporte à documentação da ANATEL e CREA, além de participar do desenvolvimento e implementação de projetos."
+    }
+  },
+  "education": {
+    "title": "Formação e Certificações",
+    "subtitle": "Formação Acadêmica",
+    "certifications": "Certificações",
+    "inProgress": "Em andamento",
+    "compsci": {
+      "title": "Bacharelado em Ciência da Computação",
+      "institution": "Centro Universitário IBMR",
+      "period": "Jan 2024 – Dez 2028"
+    },
+    "bi": {
+      "title": "Pós-graduação em Business Intelligence Master",
+      "institution": "PUC-Rio · ICA – Lab. de Inteligência Computacional",
+      "period": "2021 – Jul 2023"
+    },
+    "ee": {
+      "title": "Bacharelado em Engenharia Elétrica",
+      "institution": "Universidade Veiga de Almeida",
+      "period": "2013 – 2018"
+    },
+    "certs": {
+      "powerbi": "Microsoft Power BI para Data Science – Versão 2.0",
+      "productivity": "Gestão do Tempo e Produtividade"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Se você está procurando um engenheiro experiente ou apenas quer se conectar, fique à vontade para entrar em contato.",
+    "download": "Baixar Currículo"
+  }
+}
