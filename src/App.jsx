@@ -6,6 +6,7 @@ import Education from './components/Education'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar/Navbar'
 import ScrollToTop from './components/ScrollToTop'
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Education />
       <Contact />
       <ScrollToTop />
+      <Footer />
     </>
   );
 }
