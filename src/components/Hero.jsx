@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-24 bg-[#1e1e2f] text-white overflow-hidden">
       {/* Image */}
@@ -13,21 +17,19 @@ export default function Hero() {
       {/* Info */}
       <div className="max-w-xl text-center md:text-left">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight text-white">
-          Cezar Augusto Waissmann de Araujo
+          {t('hero.title')}
         </h1>
         <h2 className="text-2xl font-semibold text-blue-400 mb-6">
-          Electrical Engineer · Project Designer · Consultant
+          {t('hero.subtitle')}
         </h2>
         <p className="text-gray-300 mb-8 text-base sm:text-lg leading-relaxed">
-          I bring technical precision, cost-effective planning, and hands-on execution
-          to every project — from automation and grounding systems to electrical
-          substation design.
+          {t('hero.description')}
         </p>
         <a
           href="#contact"
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-700 transition"
         >
-          Contact Me
+          {t('hero.cta')}
         </a>
       </div>
     </section>

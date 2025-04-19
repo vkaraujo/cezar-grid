@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Cezar Augusto Waissmann de Araujo",
+    "subtitle": "Electrical Engineer · Project Designer · Consultant",
+    "description": "I bring technical precision, cost-effective planning, and hands-on execution to every project — from automation and grounding systems to electrical substation design.",
+    "cta": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm Cezar Araujo, an electrical engineer with over 7 years of experience in the civil construction industry. I specialize in designing and managing electrical systems — from low-voltage installations to automation and substation projects.",
+    "paragraph2": "My work combines technical accuracy with hands-on execution, always focused on delivering quality, cost-efficient results. I thrive in environments that demand clear communication, critical thinking, and a proactive mindset."
+  },
+  "skills": {
+    "title": "Skills & Tools",
+    "description": "Tools and competencies I use to deliver quality and efficiency.",
+    "technical": "Technical Skills",
+    "soft": "Soft Skills",
+    "spda": "SPDA & Grounding",
+    "substations": "Substations",
+    "automation": "Automation",
+    "projectMgmt": "Project Mgmt",
+    "problemSolving": "Problem Solving",
+    "teamwork": "Teamwork",
+    "negotiation": "Negotiation",
+    "english": "English (Advanced)"
+  },
+  "experience": {
+    "title": "Experience",
+    "multi": {
+      "company": "Multi Reformas",
+      "period": "Jul 2024 – Present",
+      "summary": "Reduced material costs by 20% during bidding process while maintaining quality and technical standards."
+    },
+    "zaghetto": {
+      "company": "Zaghetto Construções",
+      "period": "Feb 2023 – Present",
+      "summary": "Improved cash flow through supplier negotiations and introduced flexible payment models."
+    },
+    "ativa": {
+      "company": "Ativa Tec Solutions",
+      "engineer": {
+        "title": "Electrical Engineer",
+        "period": "Oct 2019 – Jan 2023",
+        "summary": "Led electrical projects and optimized payment processes, resolving 98% of discrepancies before deadlines."
+      },
+      "intern": {
+        "title": "Engineering Intern",
+        "period": "Aug 2017 – Oct 2019",
+        "summary": "Assisted with CAD drawings, staff payment reports, and on-site project execution."
+      }
+    },
+    "inovsat": {
+      "company": "Inovsat Telecom",
+      "period": "Jun 2014 – Dec 2014",
+      "summary": "Supported ANATEL and CREA documentation, and participated in project development and implementation."
+    }
+  },
+  "education": {
+    "title": "Education & Certifications",
+    "subtitle": "Education",
+    "certifications": "Certifications",
+    "inProgress": "In Progress",
+    "compsci": {
+      "title": "B.Sc. in Computer Science",
+      "institution": "Centro Universitário IBMR",
+      "period": "Jan 2024 – Dec 2028"
+    },
+    "bi": {
+      "title": "Postgraduate in Business Intelligence Master",
+      "institution": "PUC-Rio · ICA – Lab. de Inteligência Computacional",
+      "period": "2021 – Jul 2023"
+    },
+    "ee": {
+      "title": "B.Sc. in Electrical Engineering",
+      "institution": "Universidade Veiga de Almeida",
+      "period": "2013 – 2018"
+    },
+    "certs": {
+      "powerbi": "Microsoft Power BI for Data Science – Version 2.0",
+      "productivity": "Time Management and Productivity"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Whether you’re looking for an experienced engineer or just want to connect, feel free to reach out.",
+    "download": "Download Résumé"
+  }
+}
