@@ -1,12 +1,28 @@
-# React + Vite
+# Cezar Araujo – Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single-page responsive portfolio website built for Cezar Araujo, an experienced Electrical Engineer. The site showcases his skills, experience, education, and contact information with a clean and modern UI.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – Frontend library used for building the UI.
+- **Vite** – Lightning-fast build tool and development server.
+- **Tailwind CSS v4** – Utility-first CSS framework for rapid styling.
+- **React Icons** – Icon library used for easily adding icons from FontAwesome, Material, and more.
+- **React i18next** – Internationalization (i18n) support for multilingual content (English 🇺🇸 and Portuguese 🇧🇷).
+- **Testing Library (Vitest + @testing-library/react)** – Unit and integration testing framework.
+- **GitHub & Vercel** – Git-based version control and continuous deployment platform.
 
-## Expanding the ESLint configuration
+## 📄 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design (mobile-first and desktop optimized)
+- Language switcher with flag dropdown
+- Section navigation with smooth scrolling
+- Scroll-to-top button
+- Resume download link
+- Accessibility best practices
+- Fully covered by tests (with >90% coverage)
+
+---
+
+🔧 Developed and maintained by [Viktor Araujo](https://github.com/vkaraujo)
+
