@@ -9,7 +9,8 @@ export default function Hero() {
       <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 mb-10 md:mb-0 md:mr-16 flex-shrink-0">
         <img
           src="/Cezar.jpeg"
-          alt="Cezar Araujo"
+          alt="Portrait of Cezar Araujo"
+          loading="lazy"
           className="w-full h-full object-cover rounded-3xl shadow-xl border-4 border-blue-500"
         />
       </div>
