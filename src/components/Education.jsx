@@ -18,7 +18,7 @@ export default function Education() {
         {/* Education Timeline */}
         <div className="mb-12">
           <h3 className="text-xl font-semibold text-gray-700 mb-6 flex items-center gap-2">
-            <FaGraduationCap className="text-blue-600" /> {t('education.subtitle')}
+            <FaGraduationCap className="text-blue-600" aria-hidden="true" /> {t('education.subtitle')}
           </h3>
           <ul className="relative border-l-4 border-blue-600 pl-6 space-y-8">
             {education.map((item, index) => (
@@ -42,7 +42,7 @@ export default function Education() {
         {/* Certifications */}
         <div>
           <h3 className="text-xl font-semibold text-gray-700 mb-6 flex items-center gap-2">
-            <FaCertificate className="text-blue-600" /> {t('education.certifications')}
+            <FaCertificate className="text-blue-600" aria-hidden="true" /> {t('education.certifications')}
           </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             {certifications.map((cert, index) => (

@@ -16,13 +16,13 @@ export default function Contact() {
 
         <div className="space-y-4 text-lg text-gray-700 mb-10">
           <p className="flex items-center justify-center gap-2">
-            <FaEnvelope className="text-blue-600" />
+            <FaEnvelope className="text-blue-600" aria-hidden="true" />
             <a href="mailto:cezar.awa@hotmail.com" className="text-blue-600 underline">
               cezar.awa@hotmail.com
             </a>
           </p>
           <p className="flex items-center justify-center gap-2">
-            <FaPhone className="text-blue-600" />
+            <FaPhone className="text-blue-600" aria-hidden="true" />
             <a href="tel:+5521992585915" className="text-blue-600 underline">
               (21) 99258-5915
             </a>
