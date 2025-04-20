@@ -13,13 +13,13 @@ export default function Skills() {
   const softSkills = getSoftSkills(t);
 
   return (
-    <section className="bg-gray-50 py-20 px-4 text-center" id="skills">
+    <section className="bg-gray-50 dark:bg-[#242437] py-20 px-4 text-center" id="skills">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4">
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 dark:text-white mb-4">
           {t('skills.title')}
         </h2>
         <div className="w-24 h-1 bg-blue-600 mx-auto mb-8 rounded-full" />
-        <p className="text-gray-600 mb-12 text-base sm:text-lg max-w-2xl mx-auto">
+        <p className="text-gray-600 dark:text-gray-300 mb-12 text-base sm:text-lg max-w-2xl mx-auto">
           {t('skills.description')}
         </p>
 

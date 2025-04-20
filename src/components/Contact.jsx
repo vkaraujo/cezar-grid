@@ -5,25 +5,25 @@ export default function Contact() {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-gray-100 py-20 px-4 text-center" id="contact">
+    <section className="bg-gray-100 dark:bg-[#2c2c3f] py-20 px-4 text-center" id="contact">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-6">
           {t('contact.title')}
         </h2>
-        <p className="text-gray-600 mb-10">
+        <p className="text-gray-600 dark:text-gray-300 mb-10">
           {t('contact.subtitle')}
         </p>
 
-        <div className="space-y-4 text-lg text-gray-700 mb-10">
+        <div className="space-y-4 text-lg text-gray-700 dark:text-gray-300 mb-10">
           <p className="flex items-center justify-center gap-2">
             <FaEnvelope className="text-blue-600" aria-hidden="true" />
-            <a href="mailto:cezar.awa@hotmail.com" className="text-blue-600 underline">
+            <a href="mailto:cezar.awa@hotmail.com" className="text-blue-400 underline">
               cezar.awa@hotmail.com
             </a>
           </p>
           <p className="flex items-center justify-center gap-2">
             <FaPhone className="text-blue-600" aria-hidden="true" />
-            <a href="tel:+5521992585915" className="text-blue-600 underline">
+            <a href="tel:+5521992585915" className="text-blue-400 underline">
               (21) 99258-5915
             </a>
           </p>
@@ -34,7 +34,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/cezar-awa/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-700 hover:text-blue-900 text-2xl"
+            className="text-blue-700 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-300 text-2xl"
             aria-label="LinkedIn"
           >
             <FaLinkedin />
@@ -43,7 +43,7 @@ export default function Contact() {
             href="https://github.com/CezarAWA/Public-View-Repo"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-800 hover:text-black text-2xl"
+            className="text-gray-800 dark:text-gray-200 hover:text-black dark:hover:text-white text-2xl"
             aria-label="GitHub"
           >
             <FaGithub />
