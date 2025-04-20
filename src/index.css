@@ -1,7 +1,40 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f8f9fa;
   color: #111827;
 }
+
+@keyframes light-stroke {
+  0% {
+    stroke-dashoffset: 300;
+    opacity: 0.05;
+  }
+  30% {
+    stroke-dashoffset: 200;
+    opacity: 0.25;
+  }
+  50% {
+    stroke-dashoffset: 100;
+    opacity: 0.4;
+  }
+  70% {
+    stroke-dashoffset: 50;
+    opacity: 0.2;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.1;
+  }
+}
+
+.animate-light-stroke {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 0;
+  animation: light-stroke 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 6px #3b82f6);
+  transition: opacity 0.3s ease;
+}
+

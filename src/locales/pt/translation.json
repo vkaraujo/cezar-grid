@@ -90,7 +90,17 @@
   "contact": {
     "title": "Entre em Contato",
     "subtitle": "Se você está procurando um engenheiro experiente ou apenas quer se conectar, fique à vontade para entrar em contato.",
-    "download": "Baixar Currículo"
+    "download": "Baixar Currículo",
+    "form": {
+      "name": "Seu nome",
+      "email": "Seu e-mail",
+      "message": "Sua mensagem",
+      "send": "Enviar",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Ops! Algo deu errado. Tente novamente.",
+      "submit": "Enviar mensagem",
+      "loading": "Enviando..."
+    }
   },
   "footer": {
     "builtBy": "Site desenvolvido por"
