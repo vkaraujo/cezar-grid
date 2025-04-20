@@ -3,7 +3,7 @@ import About from './components/About'
 import Skills from './components/Skills/Skills'
 import Experience from './components/Experience'
 import Education from './components/Education'
-import Contact from './components/Contact'
+import Contact from './components/Contact/Contact'
 import Navbar from './components/Navbar/Navbar'
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer';
