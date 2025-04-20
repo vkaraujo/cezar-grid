@@ -1,10 +1,13 @@
 import { useTranslation } from 'react-i18next';
+import HeroAnimation from './HeroAnimation';
 
 export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-24 bg-[#1c2640] text-white dark:bg-[#242437] overflow-hidden">
+    <section className="relative min-h-screen z-10 flex flex-col md:flex-row items-center justify-center px-6 py-24 bg-[#1c2640] text-white dark:bg-[#242437] overflow-hidden">
+      <HeroAnimation />
+
       {/* Image */}
       <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 mb-10 md:mb-0 md:mr-16 flex-shrink-0">
         <img
